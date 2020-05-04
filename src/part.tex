@@ -1,0 +1,34 @@
+\section{Hauptteil}
+\subsection{Kapitel}
+\subsubsection{Bilder}
+Text verweist auf Bild \ref{image:autor} auf Seite \pageref{image:autor}.
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth]{img/image.jpg}
+  \caption{Autor}
+  \label{image:autor}
+\end{figure}
+
+\subsubsection{Tabellen}
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|l|p{0.8\linewidth}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Spaltenübergreifend}}
+\tabularnewline \hline
+\multicolumn{1}{|c|}{\textit{\textbf{Spalte 1}}} & \multicolumn{1}{c|}{\textit{\textbf{Spalte 2}}}
+\tabularnewline \hline
+Zelle 11 & Zelle 12
+\tabularnewline \hline
+Zelle 12 & Zelle 22
+\tabularnewline \hline
+\end{tabular}
+\caption{Tabelle}
+\label{table:tabelle}
+\end{table}
+Text verweist auf Tabelle \ref{table:tabelle} auf Seite \pageref{table:tabelle}.
+
+\subsubsection{Zitationen}
+Viel bla bla.\footnote{\cite[S. 11ff]{autor1}.}
+
+\newpage
